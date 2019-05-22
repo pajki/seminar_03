@@ -9,7 +9,7 @@ from nltk.stem import WordNetLemmatizer
 
 class Processing:
     def __init__(self):
-        self.path = dirname(dirname(dirname(realpath(__file__)))) + "/data/"
+        # self.path = dirname(dirname(dirname(realpath(__file__)))) + "/data/"
         self.stop_words_slovene = None
         self.init_stop_words()
 
@@ -68,13 +68,13 @@ class Processing:
              "preko", "znova", "morda", "kateri", "katero", "katera", "ampak", "lahek", "lahka", "lahko", "morati",
              "torej"]))
 
-    def open_web_page(self, file_name):
+    def open_web_page(self, file_path):
         """
         This method opens html file and returns its content
-        :param file_name: file name
+        :param file_path: file path
         :return: file content
         """
-        with open(self.path + file_name, encoding="utf8") as f:
+        with open(file_path, encoding="utf8") as f:
             return f.read()
 
     def get_text_from_web_page(self, file_path):
@@ -117,6 +117,7 @@ class Processing:
         # print(text)
 
         # perform text lemmatization
+        # TODO check if this actually helps
         lemmatizer = WordNetLemmatizer()
         text = lemmatizer.lemmatize(text)
 
@@ -135,6 +136,8 @@ class Processing:
 if __name__ == "__main__":
     print("running processing module\n")
     p = Processing()
-    content = p.get_text_from_web_page("evem.gov.si/evem.gov.si.1.html")
+    print("Extracting text")
+    content = p.get_text_from_web_page("/Users/Gore/Workspace/ieps/seminar_03/indexer/data/evem.gov.si/evem.gov.si.1.html")
+    print("Processing tekst")
     result = p.process_text(content)
     print(result)
