@@ -5,6 +5,7 @@ from os import listdir
 from os.path import isfile, join
 
 
+
 def get_list_of_input_files():
     path = dirname(dirname(dirname(realpath(__file__)))) + "/data"
     dir_list = [f for f in listdir(path)]
@@ -22,14 +23,14 @@ def get_list_of_input_files():
 
 
 class Index:
-    def __init__(self, list_data):
-        # self.data = enumerate(list_data)
-        self.data = None
+    def __init__(self):
+        pass
 
-    def get_indexes(self, word):
-        # TODO fix
-        indexes = [i for i, x in self.data if x == word]
-        return indexes, len(indexes)
+    def get_indices(self, data_list):
+        unique_entries = set(data_list)
+        indices = {value: [i for i, v in enumerate(data_list) if v == value] for value in unique_entries}
+        # print(indices)
+        return indices
 
     def populate_database(self):
         # init module
@@ -40,30 +41,30 @@ class Index:
 
         # extract text and process it
         for f in all_files:
+            # get content
             print("Opening file: " + f)
             content = p.get_text_from_web_page(f)
+
+            # get tokens
             print("Processing text")
             token_list = p.process_text(content)
-            print(token_list)
-            # save enumerated token list to self
-            self.data = enumerate(token_list)
+            # print(token_list)
 
-            for word in token_list:
-                indexes, indexes_len = self.get_indexes(word)
-                print(f, indexes, indexes_len)
+            # get indices
+            indices = self.get_indices(token_list)
+            print(indices)
+            # {'skupnopiškotki': [52], 'vlade': [21], 'spletnega': [86, 132], 'pregrada': [114], ...}
+            # save to DB
+            # word spletnega
+            # frequency 2
+            # indexes "86,132"
+            # document name variable f
+
             break
-
-
-
-        # get indexes
-        # save to DB
-
         pass
 
 
-
-
 if __name__ == "__main__":
-    i = Index(None)
-    i.populate_database()
+    index = Index()
+    index.populate_database()
 

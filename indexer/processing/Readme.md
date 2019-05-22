@@ -6,7 +6,7 @@ import nltk
 nltk.download()
 ```
 New window will open. In this window you can install additional nltk data.
-Install all and remember the install dir path.
+Install stopwords, wordnet and remember the install dir path.
 Then copy slovenian file from corpora dir into NLTK_DATA/corpora/stopwords/slovenian
 
 ## How it works
