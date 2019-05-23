@@ -24,6 +24,5 @@ Extracted text had lots of whitespaces and multiple new lines. Therefore we clea
 
 This function takes single line string.
 First we convert whole content to lowercase.
-Then we perform word lematization. 
 Afterwards we apply regex tokenizer to tokenize words. We used regex tokenizer so we could remove commas, dots, etc.
 Finally we filter word tokens with stopwords. End result is array of words we can use for index.

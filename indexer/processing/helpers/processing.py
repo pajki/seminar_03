@@ -14,6 +14,10 @@ class Processing:
         self.init_stop_words()
 
     def init_stop_words(self):
+        """
+        Initializes stop words from corpus
+        :return:
+        """
         self.stop_words_slovene = set(stopwords.words("slovenian")).union(set(
             ["ter", "nov", "novo", "nova", "zato", "še", "zaradi", "a", "ali", "april", "avgust", "b", "bi", "bil",
              "bila", "bile", "bili", "bilo", "biti",
@@ -117,12 +121,13 @@ class Processing:
         # print(text)
 
         # perform text lemmatization
-        # TODO check if this actually helps
-        lemmatizer = WordNetLemmatizer()
-        text = lemmatizer.lemmatize(text)
+        # check if this actually helps - we decided not to use it
+        # lemmatizer = WordNetLemmatizer()
+        # text = lemmatizer.lemmatize(text)
 
         # tokenize text
         # word_tokens = word_tokenize(text)
+        # If we get strange results from queries uncomment line above and remove lines bellow
         tokenizer = RegexpTokenizer(r'\w+')
         word_tokens = tokenizer.tokenize(text)
 

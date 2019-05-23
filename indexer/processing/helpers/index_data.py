@@ -5,8 +5,12 @@ from os import listdir
 from os.path import isfile, join
 
 
-
 def get_list_of_input_files():
+    """
+    Helper function
+    Returns all input files in a array as file path (only HTML files)
+    :return: array of file paths
+    """
     path = dirname(dirname(dirname(realpath(__file__)))) + "/data"
     dir_list = [f for f in listdir(path)]
     files = []
@@ -27,12 +31,20 @@ class Index:
         pass
 
     def get_indices(self, data_list):
+        """
+        Returns where token is located in a document
+        :param data_list: tokenized input
+        :return: {'skupnopiškotki': [52], 'vlade': [21], 'spletnega': [86, 132], 'pregrada': [114], ...}
+        """
         unique_entries = set(data_list)
         indices = {value: [i for i, v in enumerate(data_list) if v == value] for value in unique_entries}
         # print(indices)
         return indices
 
     def populate_database(self):
+        """
+        This function populates database with data
+        """
         # init module
         p = Processing()
 
