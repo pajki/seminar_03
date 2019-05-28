@@ -59,12 +59,14 @@ class Index:
             content = p.get_text_from_web_page(f)
             # get tokens
             token_list = p.process_text(content)
-            # get indices
-            indices = self.get_indices(token_list)
+            # get indices from content - to be able to later create snippets
+            indices = self.get_indices(content.split(" "))
             for key, value in zip(indices.keys(), indices.values()):
-                word, created = IndexWord.objects.get_or_create(word=key)
-                value = [str(x) for x in value]
-                Posting(word=word, document_name=f, frequency=len(value), indexes=",".join(value)).save()
+                # only insert tokens into the db
+                if key in token_list:
+                    word, created = IndexWord.objects.get_or_create(word=key)
+                    value = [str(x) for x in value]
+                    Posting(word=word, document_name=f, frequency=len(value), indexes=",".join(value)).save()
             i += 1
 
 
