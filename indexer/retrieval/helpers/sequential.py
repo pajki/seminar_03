@@ -1,6 +1,7 @@
 import sys,os
 from indexer.processing.helpers.processing import Processing
 from datetime import datetime
+import re
 
 
 class Sequential:
@@ -30,7 +31,7 @@ class Sequential:
                 self.files.append(os.path.join(path, name))
 
     def process_files(self):
-        self.files = [(file, self.processing.get_text_from_web_page(file)) for file in self.files]
+        self.files = [(file, self.processing.get_text_from_web_page(file)) for file in self.files[0:50]]
 
     def find_top_frequencies(self):
 
@@ -51,8 +52,11 @@ class Sequential:
         for result in self.results:
             text = self.processing.get_text_from_web_page(result[0]).split(" ")
             snippets = []
-            for index in [i for i, x in enumerate(text) if x in self.query]:
-                snippets.append(" ".join(text[index - 2:index + 4]))
+            prev_index = -42
+            for index in [i for i, x in enumerate(text) if re.sub('[^A-Za-z0-9]+', '', x).lower() in self.query]:
+                if index != prev_index+1:
+                    snippets.append(" ".join(text[index - 2:index + 4]))
+                prev_index = index
             r.append((result[0], result[1], result[2], snippets))
 
         self.results = r
