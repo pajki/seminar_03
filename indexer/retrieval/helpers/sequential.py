@@ -31,7 +31,7 @@ class Sequential:
                 self.files.append(os.path.join(path, name))
 
     def process_files(self):
-        self.files = [(file, self.processing.get_text_from_web_page(file)) for file in self.files[0:50]]
+        self.files = [(file, self.processing.get_text_from_web_page(file)) for file in self.files]
 
     def find_top_frequencies(self):
 
