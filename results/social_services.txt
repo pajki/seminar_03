@@ -1,0 +1,12 @@
+Results for a query: "social services"
+
+
+	Results found in 115ms.
+
+
+	Frequencies Document                                Snippet
+	----------- --------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	5           e-uprava.gov.si/e-uprava.gov.si.45.html Labour, retirement Social services, health, death ... relationship etc.? Social services, health, death ... obtain financial social assistance? How do
+	5           e-uprava.gov.si/e-uprava.gov.si.9.html  Labour, retirement Social services, health, death ... relationship etc.? Social services, health, death ... obtain financial social assistance? How do
+	1           evem.gov.si/evem.gov.si.661.html        and Related Services (AJPES) and the
+	1           podatki.gov.si/podatki.gov.si.340.html  and spa services ltd. TERME MARIBOR,

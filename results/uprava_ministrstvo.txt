@@ -1,0 +1,13 @@
+Results for a query: "uprava ministrstvo"
+
+
+	Results found in 676ms.
+
+
+	Frequencies Document                               Snippet
+	----------- -------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	640         evem.gov.si/evem.gov.si.371.html       ga vodi Uprava RS za varno ... rastlin Vir: Ministrstvo za kmetijstvo, gozdarstvo ... jo vodi Uprava RS za varno ... živil Vir: Ministrstvo za kmetijstvo, gozdarstvo ... jo vodi Uprava RS za varno ...
+	68          podatki.gov.si/podatki.gov.si.340.html Žalec MEDOBČINSKA UPRAVA MESTNE OBČINE NOVA ... BRDA MEDOBČINSKA UPRAVA OBČIN BOVEC, KOBARID, ... SOČI MEDOBČINSKA UPRAVA OBČIN KOSTEL IN ... OSILNICA MEDOBČINSKA UPRAVA OBČIN MEŽIŠKE DOLINE ... DOLIN
+	52          podatki.gov.si/podatki.gov.si.348.html REPUBLIKA SLOVENIJA, MINISTRSTVO ZA DELO, DRUŽINO, ... MOŽNOSTI (61) MINISTRSTVO ZA OKOLJE IN ... OKOLJE (58) MINISTRSTVO ZA NOTRANJE ZADEVE ... ZADEVE (58) MINISTRSTVO ZA JAVNO UPRAVO ... KORUPCIJE (
+	49          podatki.gov.si/podatki.gov.si.31.html  (3) Lokalna uprava (2) Organizacija VLADA ... REPUBLIKA SLOVENIJA, MINISTRSTVO ZA DELO, DRUŽINO, ... MOŽNOSTI (61) MINISTRSTVO ZA OKOLJE IN ... OKOLJE (58) MINISTRSTVO ZA NOTRANJE ZADEVE ... ZADEVE (5
+	30          podatki.gov.si/podatki.gov.si.212.html  ... FINANCE FINANČNA UPRAVA REPUBLIKE SLOVENIJE - ... Podrobnosti Organizacija: MINISTRSTVO ZA FINANCE FINANČNA ... FINANCE FINANČNA UPRAVA REPUBLIKE SLOVENIJE MINISTRSTVO ... REPUBLIKE SLOVENIJE MIN

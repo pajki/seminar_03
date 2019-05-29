@@ -1,0 +1,13 @@
+Results for a query: "samostojni podjetnik"
+
+
+	Results found in 614ms.
+
+
+	Frequencies Document                         Snippet
+	----------- -------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	41          evem.gov.si/evem.gov.si.371.html oseba ali podjetnik lahko začne s ... oseba ali podjetnik, ki nima dovoljenja ... oseba ali podjetnik lahko začne s ... oseba ali podjetnik, ki nima dovoljenja ... oseba ali podjetnik posameznik lahko
+	14          evem.gov.si/evem.gov.si.23.html  (ZGD-1) lahko podjetnik začne opravljati dejavnost, ... datumom vpisa. Podjetnik lahko prenese svoj ... zavarovanja, če podjetnik ni že zavarovan ... 2015 dalje samostojni podjetniki ob registraciji .
+	10          evem.gov.si/evem.gov.si.649.html pravna oseba, samostojni podjetnik posameznik, kmetija, ... oseba ali samostojni podjetnik posameznik, pri ... ki ni samostojni podjetnik posameznik, kmetijsko ... ki ni samostojni podjetnik posamezni
+	9           evem.gov.si/evem.gov.si.48.html  želite kot samostojni podjetnik prenehati opravljati ... likvidacije. Kot samostojni podjetnik se morate ... (FURS) Kot samostojni podjetnik morate v ... da kot podjetnik tudi sami vodite ... odprtje
+	8           evem.gov.si/evem.gov.si.8.html   davčni register Samostojni podjetnik izpolni za ... register obrazec DR-03. Samostojni podjetnik je fizična ... register kot samostojni podjetnik, Finančna uprava ... ampak kot samostojni podjetnik up

@@ -1,7 +1,7 @@
 results for a query: "trgovina"
 
 
-	Results found in 38s 474ms.
+	Results found in 520ms.
 
 
 	Frequencies Document                               Snippet

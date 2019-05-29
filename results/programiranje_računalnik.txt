@@ -1,0 +1,13 @@
+Results for a query: "programiranje računalnik"
+
+
+	Results found in 95ms.
+
+
+	Frequencies Document                                  Snippet
+	----------- ----------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	10          evem.gov.si/evem.gov.si.371.html          upravljanje in programiranje. Sem spada: proizvodnja ... gl. 58.210 programiranje računalniških igric, gl. ... 47.410 računalniško programiranje, ki ni povezano ... aparatov in programiranje aparatov
+	4           e-prostor.gov.si/e-prostor.gov.si.57.html lahko na svoj računalnik prenesete prosto dostopne ... prenesite na svoj računalnik in si z
+	2           evem.gov.si/evem.gov.si.379.html          je potrebno na računalnik namestiti program ProXSign. ... e-Vem potrebujete: osebni računalnik z nameščenim operacijskim
+	2           e-prostor.gov.si/e-prostor.gov.si.29.html lahko na svoj računalnik prenesete prosto dostopne ... prenesite na svoj računalnik in si z
+	2           e-prostor.gov.si/e-prostor.gov.si.25.html je potrebno na računalnik namestiti program ProXSign. ... e-Vem potrebujete: osebni računalnik z nameščenim operacijskim

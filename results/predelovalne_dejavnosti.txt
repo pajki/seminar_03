@@ -1,0 +1,13 @@
+Results for a query: "predelovalne dejavnosti"
+
+
+	Results found in 136ms.
+
+
+	Frequencies Document                               Snippet
+	----------- -------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	1516        evem.gov.si/evem.gov.si.371.html       ustrezne šifre dejavnosti /storitve in informacij ... za opravljanje dejavnosti. V iskalnik vpišite ... od 645 dejavnosti Izpisanih je od ... je od dejavnosti A KMETIJSTVO IN ... za opravljanje dejavn
+	77          evem.gov.si/evem.gov.si.377.html       v zdravstveni dejavnosti Dekan oziroma direktor ... v zdravstveni dejavnosti Dimnikar Diplomirana medicinska ... v zdravstveni dejavnosti Laboratorijski sodelavec II ... v zdravstveni dejavnosti Labor
+	44          evem.gov.si/evem.gov.si.452.html       Druge storitvene dejavnosti, drugje nerazvrščene (96.090) ... (96.090) / Dejavnosti / eVEM Republika ... eVEM›Dejavnosti›Druge storitvene dejavnosti, drugje nerazvrščene (96.090) ... Druge storitvene
+	40          podatki.gov.si/podatki.gov.si.340.html NOSILEC DOPOLNILNE DEJAVNOSTI NA KMETIJI BREGAR ... CENTER INTERESNIH DEJAVNOSTI PTUJ CENTER JUDOVSKE ... IN OBŠOLSKIH DEJAVNOSTI Center urbane kulture ... druge zdravstvene dejavnosti, d.o.o. DENTIM
+	31          evem.gov.si/evem.gov.si.653.html       za opravljanje dejavnosti specializirane prodajalne z ... ali televizijske dejavnosti Dovoljenje za izvajanje ... izvajanje sevalne dejavnosti Dovoljenje za izvajanje ... izvajanje sevalne dejavnosti
