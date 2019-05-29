@@ -1,0 +1,13 @@
+results for a query: "trgovina"
+
+
+	Results found in 38s 474ms.
+
+
+	Frequencies Document                               Snippet
+	----------- -------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	364         evem.gov.si/evem.gov.si.371.html       gl. 46.110 trgovina na debelo s ... gl. 10.890 trgovina na debelo z ... gl. 10.890 trgovina na debelo s ... gl. 46.380 trgovina na drobno s ... nevarnih kemikalij Trgovina na debelo z ... nevarnimi ke
+	94          evem.gov.si/evem.gov.si.651.html       govedoreja Druga trgovina na drobno v ... prodajalnah Druga trgovina na drobno v ... prodajalnah Druga trgovina na drobno v ... živili Druga trgovina na drobno zunaj ... posredovanje Nespecializirana
+	92          evem.gov.si/evem.gov.si.21.html        e-VEM eVEM›Področja Trgovina Tu boste našli ... dejavnosti Druga trgovina na drobno v ... prodajalnah Druga trgovina na drobno zunaj ... (47.990) Nespecializirana trgovina na debelo Trgovina ... na de
+	82          podatki.gov.si/podatki.gov.si.340.html A DENT, trgovina in storitve, d.o.o. ... ADRIA INVESTICIJE trgovina, posredništvo, storitve in ... d.o.o. AHATSERVIS trgovina in storitve, d.o.o. ... d.o.o. ALBA trgovina in proizvodnja, d.o.o. ... st
+	14          evem.gov.si/evem.gov.si.623.html        ... široke porabe Trgovina na debelo z ... Sem spada: trgovina na debelo z ... izdelki ipd. trgovina na debelo s ... deli zanja trgovina na debelo s ... knjigami, časopisi trgovina na debelo z ... po
