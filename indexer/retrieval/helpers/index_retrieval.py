@@ -57,7 +57,7 @@ class IndexRetrieval:
 
         for key, value in zip(hits.keys(), hits.values()):
             for i in range(0, len(results)):
-                if results[i]["count"] < value:
+                if value > results[i]["count"]:
                     results[i] = {"document": key, "count": value, "indices": indices[key]}
                     break
 
@@ -73,7 +73,7 @@ class IndexRetrieval:
             text = self.processing.get_text_from_web_page(result["document"]).split(" ")
             snippets = []
             for index in [int(x) for x in result["indices"].split(",")]:
-                snippets.append(" ".join(text[index-2:index+4]))
+                snippets.append(" ".join(text[index-3:index+4]))
             result["snippets"] = snippets
 
     def print_results(self, running_time):
@@ -92,5 +92,5 @@ class IndexRetrieval:
         print("\t----------- {} {}".format("-" * longest_document, "-" * 200))
         for result in self.results:
             print("\t{}{} {}".format(str(result["count"]).ljust(12, " "),
-                                    "/".join(result["document"].split("/")[-2:]).ljust(longest_document, " "),
+                                     "/".join(result["document"].split("/")[-2:]).ljust(longest_document, " "),
                                      (" ... ".join(result["snippets"])[0:200])))

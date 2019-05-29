@@ -37,7 +37,7 @@ class Index:
         :return: {'skupnopiškotki': [52], 'vlade': [21], 'spletnega': [86, 132], 'pregrada': [114], ...}
         """
         unique_entries = set(data_list)
-        indices = {value: [i for i, v in enumerate(data_list) if v == value] for value in unique_entries}
+        indices = {value.lower(): [i for i, v in enumerate(data_list) if v == value] for value in unique_entries}
         return indices
 
     def populate_database(self):
@@ -53,8 +53,9 @@ class Index:
         # extract text and process it
         i = 1
         n = len(all_files)
+
         for f in all_files:
-            print("Processing file {}/{}".format(i, n))
+            print("Processing file {}/{}: {}".format(i, n, "/".join(f.split("/")[-2:])))
             # get content
             content = p.get_text_from_web_page(f)
             # get tokens
